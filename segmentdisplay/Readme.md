@@ -1,6 +1,7 @@
 segmentdisplay
 ========
 Example of connecting RadioShack 7-Segment LED Digital Display to Particle Photon
+
 Video: https://www.youtube.com/watch?v=j-fh7-htuYw
 
 Pin | Segment
