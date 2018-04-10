@@ -1,0 +1,1 @@
+char* TranslateChar(char ch);
