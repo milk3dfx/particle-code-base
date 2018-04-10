@@ -1,0 +1,20 @@
+<div>
+	<h1 class = "w3-text-light-grey w3-blue">Telegraph</h1>
+	<hr>
+	<form class="w3-container">
+		<div class="w3-container w3-xlarge w3-margin-top w3-margin-botton w3-center">
+			Login
+		</div>
+		<div id="error-message" class="w3-text-red">{{error_description}}</div>
+		<p>
+			<label class = "w3-text-grey">User name:</label>
+			<input id="user-name" class="w3-input w3-border" type="edit" ng-model="userName" />
+		<p>
+		<p>
+			<label class = "w3-text-grey">Password:</label>
+			<input id="user-password" class="w3-input w3-border" type="password" ng-model="userPassword"/>
+		</p>
+		<button id="login-button" class="w3-button w3-blue w3-right" ng-click = "LogIn()">Login</button>
+	</form>
+	<hr>
+</div>

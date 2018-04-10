@@ -1,0 +1,19 @@
+<div>
+	<div class="w3-bar w3-light-grey">
+		<span class="w3-bar-item">Telegraph</span>
+		<button id="logout-button" class="w3-bar-item w3-button w3-right" ng-click = "LogOut()">Logout</button>
+	</div>
+	<div class="w3-container">
+		<p>
+			<label class="w3-text-grey">Message:</label>
+			<textarea id="message-area"
+				class="w3-input w3-border"
+				rows="6"
+				tabindex = "2"
+				ng-model="messageText"
+				>
+			</textarea>
+		</p>
+		<button id="send-button" class="w3-button w3-blue w3-right" ng-click = "SendMessage()">Send</button>
+	</div>
+</div>
